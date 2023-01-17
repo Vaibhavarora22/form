@@ -1,6 +1,6 @@
 .form{
 	width: 250px;
-	height: 410px;
+	height: 450px;
 	border: 5px solid white;
 	border-radius: 10px;
 	margin: 135px 560px;
@@ -8,12 +8,16 @@
 	background-image: url('https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	min-width: 100px;
+	min-height: 100px;
 
 }
 body{
-	background-image: url('https://w0.peakpx.com/wallpaper/107/727/HD-wallpaper-blue-shine-radiance-background-design.jpg');
+	background-image: url('https://cdn.wallpapersafari.com/29/1/0gWBzS.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	min-width: 2500px;
+	max-width: 5000px;
 
 }
 .button{
@@ -27,4 +31,20 @@ body{
 }
 .forgot{
 	margin: 130px;
+}
+#user{
+	width: 250px;
+	height: 20px;
+	border-radius: 7px;
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: groove;
+    background-color: lightblue;
+	
+	padding: 2px 5px;
+}
+.name{
+	margin: 10px;
+	color: ;
 }
