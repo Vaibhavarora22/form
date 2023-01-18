@@ -5,9 +5,10 @@
 	border-radius: 10px;
 	margin: 8% 37.5%;
 	padding: 10px 60px;
-	background-image: url('https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg');
+	/*background-image: url('https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg');
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover;*/
+	background-color: white;
 	
 
 }
@@ -24,6 +25,7 @@ body{
 		width: 200px;
 	    height: 480px;
 	    margin: 18% 24%;
+	    background-color: blue;
 
 	}
 	body{
