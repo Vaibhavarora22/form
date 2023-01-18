@@ -22,8 +22,8 @@ body{
 @media screen and (max-width: 767px)
 {
 	.form {
-		width: 200px;
-	    height: 480px;
+		width: 100px;
+	    height: 380px;
 	    margin: 18% 24%;
 	    background-color: blue;
 
