@@ -5,11 +5,17 @@
 	border-radius: 10px;
 	margin: 8% 37.5%;
 	padding: 10px 60px;
-	/*background-image: url('https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg');
+	background-color: white;
+	background-image: url('https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	/*border: 5px solid white;
+	border-radius: 10px;
+	background-image: url('https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;*/
-	background-color: white;
-	
+
 
 }
 
@@ -22,9 +28,9 @@ body{
 @media screen and (max-width: 767px)
 {
 	.form {
-		width: 100px;
-	    height: 380px;
-	    margin: 18% 24%;
+		width: 150px;
+	    height: 480px;
+	    margin: 22% 15%;
 	    background-color: blue;
 
 	}
@@ -34,26 +40,35 @@ body{
 		background-size: 1300px;
 
 	}
-	.button{
-		margin: -21px;
+	.butt{
+		margin-left: -45px;
+		
 	}
 	#user{
-		margin: 5px -20px;
+		margin-left: -45px;
 	}
 	.forgot{
-		font-size: 14.5px;
+		font-size: 15px;
+		left: 1125px;
 		
 
 		
 	}
+	.pree{
+		margin-left: -50px;
+	}
 	.forgo{
-		font-size: 14.5px;
+		font-size: 12px;
+		margin-left: -15px;
 	}
 	.lin{
-		font-size: 13.75px;
+		font-size: 10px;
+	}
+	.pre{
+		margin-left: 30px;
 	}
 	.name{
-		/*margin-left: 5px;*/
+		padding: 25px;
 		font-size: 14.5px;
 
 
@@ -61,18 +76,18 @@ body{
 }
 .button{
 	color: white;
-	/*margin: 0px 5px; */
+	margin: 0px 5px; 
     background-color: royalblue;
     border-radius: 22px;
     padding: 5px 0px ;
-	width: 250px;
+	width: 235px;
 
 }
 .forgot{
 	margin: 100px;
 }
 #user{
-	width: 250px;
+	width: 225px;
 	height: 20px;
 	border-radius: 7px;
 	border-top-style: hidden;
@@ -83,6 +98,13 @@ body{
 	
 	padding: 2px 5px;
 }
+.pre{
+	margin-left: 70px;
+}
+.pree{
+	margin-left: 105px;
+}
 .name{
 	margin: 10px;
 }
+
