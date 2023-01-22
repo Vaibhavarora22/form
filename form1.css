@@ -9,8 +9,8 @@
 	background-image: url('https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	position: absolute;
-	/*border: 5px solid white;
+	/*position: relative 
+	border: 5px solid white;
 	border-radius: 10px;
 	background-image: url('https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg');
 	background-repeat: no-repeat;
@@ -22,7 +22,7 @@
 body{
 	background-image: url('https://cdn.wallpapersafari.com/29/1/0gWBzS.jpg');
 	background-repeat: no-repeat;
-	background-size: 1500px;
+	/*background-size: 1500px;*/
 
 }
 @media screen and (max-width: 767px)
@@ -49,13 +49,9 @@ body{
 	}
 	.forgot{
 		font-size: 15px;
-		left: 1125px;
-		
-
-		
 	}
 	.pree{
-		margin-left: -50px;
+		margin-left: 63px !important;
 	}
 	.forgo{
 		font-size: 12px;
@@ -65,7 +61,7 @@ body{
 		font-size: 10px;
 	}
 	.pre{
-		margin-left: 30px;
+		margin-left: 30px !important;
 	}
 	.name{
 		padding: 25px;
@@ -107,4 +103,5 @@ body{
 .name{
 	margin: 10px;
 }
+
 
